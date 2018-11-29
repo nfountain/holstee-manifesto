@@ -1,0 +1,61 @@
+body {
+    width: 68%;
+    margin: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+p {
+    border: 5px grey solid;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: green;
+    overflow: auto;
+}
+
+/* LAYOUT */
+.block {
+    clear: both;
+    background-color: purple;
+}
+
+.layout-1a {
+    float: left;
+    width: 30%;
+    padding: 2%;
+}
+
+.layout-1b {
+    float: left;
+    width:55%;
+    padding: 2%;
+}
+
+.layout-2a {
+    float: left;
+    width: 55%;
+    padding: 2%;
+}
+
+.layout-2b {
+    float: left;
+    width: 30%;
+    padding: 2%;
+}
+
+footer {
+    clear: both;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Text styling **/
+.purpose {
+    font-weight: 700;
+    color: rgb(252, 74, 26);
+}
